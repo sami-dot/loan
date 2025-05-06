@@ -1,28 +1,26 @@
-// Place the buildscript block before the plugins block
 buildscript {
     ext.kotlin_version = '1.9.0'
     repositories {
-        google()
+        google() // Ensure this is added
         mavenCentral()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.3.0' // Ensure the correct version
+        classpath 'com.android.tools.build:gradle:7.4.0' // Update to a newer version (7.4.0 or 7.5.0)
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath 'com.google.gms:google-services:4.3.15'
     }
 }
 
-// Now the plugins block can be used after the buildscript block
 plugins {
-    id "com.android.application" version "7.3.0" apply false // Specify the version of the plugin
+    id "com.android.application" version "7.4.0" apply false // Updated plugin version
     id "kotlin-android"
     id "dev.flutter.flutter-gradle-plugin" version "1.0.0" apply false
 }
 
 allprojects {
     repositories {
-        google()
+        google() // Ensure this is added here as well
         mavenCentral()
         jcenter()
     }
