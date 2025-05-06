@@ -8,8 +8,7 @@ pluginManagement {
     }
     settings.ext.flutterSdkPath = flutterSdkPath()
 
-    includeBuild("${settings.ext.flutterSdkPath}/packages/flutter_tools/gradle")
-
+    // Declare the Flutter Gradle plugin using the new plugins block
     plugins {
         id "dev.flutter.flutter-gradle-plugin" version "1.0.0" apply false
     }
@@ -17,4 +16,5 @@ pluginManagement {
 
 include ":app"
 
-apply from: "${settings.ext.flutterSdkPath}/packages/flutter_tools/gradle/app_plugin_loader.gradle"
+// No longer using the old "apply from:" line
+// includeBuild("${settings.ext.flutterSdkPath}/packages/flutter_tools/gradle")
