@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "414153445749",
+    "project_id": "loantrackerapp-371e3",
+    "storage_bucket": "loantrackerapp-371e3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414153445749:android:bab932e4e08a3b02bc833c",
+        "android_client_info": {
+          "package_name": "com.example.loan_tracker_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414153445749-j961tbil8me0njdlj5gtljopntrgson5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.loan_tracker_app",
+            "certificate_hash": "6e6d58f9702c23e4e63c662aa7bdd5be7d1890b6"
+          }
+        },
+        {
+          "client_id": "414153445749-j5i25inkg75nd9d9n2oj1k1b5ltjgp9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApc5qZsFWUraL_cQU6ine2aJx2eKOwJ6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414153445749-j5i25inkg75nd9d9n2oj1k1b5ltjgp9l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "414153445749-9sslhkkb2rgqkfvjuoqudrjafe05vj31.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.loanTrackerApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
