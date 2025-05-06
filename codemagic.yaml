@@ -1,0 +1,16 @@
+workflows:
+  flutter:
+    name: Flutter build
+    description: Build Flutter app with Codemagic
+    environment:
+      flutter: stable
+    scripts:
+      - name: Clear Gradle Cache
+        script: |
+          rm -rf ~/.gradle/caches/
+      - name: Install dependencies
+        script: |
+          flutter pub get
+      - name: Build app
+        script: |
+          flutter build apk --debug
